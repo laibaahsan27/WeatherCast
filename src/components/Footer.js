@@ -11,7 +11,7 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/laiba-ahsan-8a913a23a/">
             <img style={{margin:'5px'}} src={L} alt="" />
         </a>
-        <a href="https://github.com/laibaahsan27/weatherAPP">
+        <a href="https://github.com/laibaahsan27/WeatherCast">
             <img style={{margin:'5px'}} src={G} alt="" />
         </a>
       </div>
