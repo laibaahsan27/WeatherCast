@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Fjalla+One&display=swap');
 .weather {
+    font-family: 'Fira Sans Extra Condensed', 'sans-serif';
     width: 300px;
-    border-radius: 6px;
-    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
-    background-color: #333;
+    background-color: #A2BABE;
+    border-radius: 21px;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.28);
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
   }
-  
   .top,
   .bottom {
     display: flex;
@@ -35,7 +36,7 @@
   }
   
   .temperature {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 70px;
     width: auto;
     letter-spacing: -5px;
@@ -60,7 +61,7 @@
   
   .parameter-value {
     text-align: right;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 12px;
   }
   
