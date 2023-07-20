@@ -121,8 +121,8 @@ flex-direction: column;
     padding-top: 20px;
     top: 100px;
     left: 170px;
-    /* height: 27%; */
-    height: 24%;
+    height: 27%;
+    /* height: 24%; */
     width: 50%;
     transition: 0.5s;
     transform: translateY(-100vh);
