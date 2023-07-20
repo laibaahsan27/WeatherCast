@@ -122,7 +122,7 @@ flex-direction: column;
     top: 100px;
     left: 170px;
     /* height: 27%; */
-    height: 20%;
+    height: 24%;
     width: 50%;
     transition: 0.5s;
     transform: translateY(-100vh);
@@ -345,7 +345,7 @@ flex-direction: column;
   }
   .sec2Con{
     background-image: url(../src/images/BG\(down\)2.png);
-    height: 115vh;
+    height: 130vh;
     background-size:cover;
     width: 100%;
   }
