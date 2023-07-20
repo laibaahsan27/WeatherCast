@@ -18,7 +18,7 @@ export default function Section3() {
             </div>
             
             <div className='sec3ParaCon'>
-                <p className='sec3Para'>Our weather forecasting website operates by collecting <span className='sec3Span'>real-time weather data</span> from reliable sources through an <span className='sec3Span'>API integration</span> . We process and analyze the data using advanced algorithms to generate <span className='sec3Span'>accurate forecasts</span>. Our user-friendly interface allows users to easily search for weather information for specific locations. We <span className='sec3Span'>continuously update</span> our forecasts to reflect the latest data, ensuring accuracy. Quality assurance measures are in place to maintain the reliability of our information.</p>
+                <p className='sec3Para'>Our weather forecasting website operates by collecting <span className='sec3Span'>real-time weather data</span> from reliable sources through an <span className='sec3Span'>API integration</span> . We process and analyze the data using advanced algorithms to generate <span className='sec3Span'>accurate forecasts</span>. Our user-friendly interface allows users to easily search for weather information for specific locations. <span className='sec3Mobile'>We <span className='sec3Span'>continuously update</span> our forecasts to reflect the latest data, ensuring accuracy. Quality assurance measures are in place to maintain the reliability of our information.</span> </p>
             </div>        
             </div>
             

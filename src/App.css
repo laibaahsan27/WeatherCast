@@ -68,6 +68,9 @@
   /* .navPoint{
     display: contents;
   } */
+  .navLinks2{
+flex-direction: column;
+  }
   .navCON{
     padding: 21px 33px;
     display: flex;
@@ -118,13 +121,14 @@
     padding-top: 20px;
     top: 100px;
     left: 170px;
-    height: 27%;
+    /* height: 27%; */
+    height: 20%;
     width: 50%;
     transition: 0.5s;
     transform: translateY(-100vh);
   }
   .navButt{
-    width: 80%;
+    /* width: 80%; */
     align-items: center;
     text-align: center;
     text-decoration: none;
@@ -137,9 +141,6 @@
     padding-right: 20px;
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.31);
-  }
-  .navButtS{
-    border-bottom: none;
   }
   .responsive_nav{
     transform: none;
@@ -202,23 +203,59 @@
   margin-left: 150px;
 }
 @media screen and (max-width: 780px){
+  .section1Con{
+    background-color: rgb(152, 205, 213);
+    margin-bottom: 5px;
+  }
+  .sec1Outer{
+    display: block;
+    justify-content: space-evenly;
+  }
   .sec1Head{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0;
-    color: #000;
-    font-size: 44px;
-    font-family: 'Fjalla One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 45px;
     padding-top: 20px;
-    text-align: right;
+    margin-left: 20px;
   }
   .sec1HeadDiv{
-    background: #AED6B0;
-    height: 102px;
-    width: 650px;
+    height: 80px;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .sec1ImgDiv{
+    width: 400px;
+    height: 400px;
+    margin: 10px 0;
+    padding-left: 15px;
+  }
+  .sec1-btn{
+    width: 342px;
+    height: 31px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .sec1P1{
+    color: #2C593E;
+    font-size: 26px;
+    width: 350px;
+    padding-left: 30px;
+    margin: 40px 0px;
+  }
+  .sec1P2{
+    display: none;
+    font-size: 23px;
+    width: 160px;
     padding-left: 20px;
+    display: inline-block;
+  }
+  .sec1P2Con{
+    display: none;
+
+  }
+  .sec1-btn{
+      margin-top: 0px;
   }
 }
 
@@ -290,6 +327,30 @@
   font-size: 'Fjalla One', sans-serif;
   padding-left: 25px;
 }
+@media screen and (max-width: 780px){
+  .sec2Head {
+    display: block;
+    padding: 50px 10px;
+    font-size: 25px;
+    margin-top: 0;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+  .sec2Outer{
+    margin-bottom: 40px;
+  }
+  .sec2Cards{
+    flex-wrap: wrap;
+    padding-top: 0px;
+  }
+  .sec2Con{
+    background-image: url(../src/images/BG\(down\)2.png);
+    height: 115vh;
+    background-size:cover;
+    width: 100%;
+  }
+}
+
 /* end section-2  */
 
 /* section-3 */
@@ -356,6 +417,40 @@ color: rgba(44, 157, 129, 1);
   justify-content: center;
   padding-bottom: 70px;
 }
+@media screen and (max-width: 780px){
+  .sec3OuterMost{
+    /* display: none; */
+  }
+  .sec3Con{
+    width: 100%;
+    margin: 0;
+  }
+  .sec3SideCon{
+    display: none;
+  }
+  .sec3ParaCon{
+    width: 272px;
+    height: 164px;
+    padding: 15px;
+  }
+  .lottieCon{
+    display: none;
+  }
+  .sec3Head{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .sec3Para{
+    font-size: 16px;
+  }
+  .sec3Mobile{
+    display: none;
+  }
+  .sec3Outer{
+    padding-bottom: 50px;
+  }
+}
 /* end section-3 */
 
 /* Footer */
@@ -392,6 +487,21 @@ font-weight: 400;
 line-height: normal;
 padding-left: 5px;
 padding-right: 5px;
+}
+@media screen and (max-width: 780px){
+  .FooterCon{
+    /* background-color: #283229; */
+    /* display: none; */
+  }
+  .Footer-btn{
+    font-size: 15px;
+  }
+  .LastLine{
+    font-size: 15px;
+  }
+  .Footer-Icons{
+    padding-top: 0;
+  }
 }
 
 /* Footer end */
