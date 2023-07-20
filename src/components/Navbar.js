@@ -78,7 +78,7 @@ export default function Navbar() {
           
             <Link
               to="/weather"
-              className="navButt navButtS"
+              className="navButt navButtS navButtSS"
               spy={true}
               smooth={true}
               duration={200}

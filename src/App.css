@@ -145,6 +145,9 @@ flex-direction: column;
   .responsive_nav{
     transform: none;
   }
+  .navButtSS{
+    border-bottom: none;
+  }
 }
 
 /* navbar ends */
