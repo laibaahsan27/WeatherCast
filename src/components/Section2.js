@@ -10,7 +10,7 @@ export default function Section2() {
         <div className='sec2Outer'>
           <div className='sec2City'>Noida, <span style={{
             color:'rgba(34, 52, 25, 0.52)', fontSize:'25px'}}>India</span> </div>
-          <div>
+          <div className='allCON'>
           <div className='sec2Icon'>
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>
@@ -25,7 +25,7 @@ export default function Section2() {
         <div className='sec2Outer'>
           <div className='sec2City'>Mumbai, <span style={{
             color:'rgba(34, 52, 25, 0.52)', fontSize:'25px'}}>India</span> </div>
-          <div>
+          <div className='allCON'>
           <div className='sec2Icon'>
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>
@@ -40,7 +40,7 @@ export default function Section2() {
         <div className='sec2Outer'>
           <div className='sec2City'>Kolkata, <span style={{
             color:'rgba(34, 52, 25, 0.52)', fontSize:'25px'}}>India</span> </div>
-          <div>
+          <div className='allCON'>
           <div className='sec2Icon'>
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>

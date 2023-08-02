@@ -227,7 +227,8 @@ flex-direction: column;
     margin-left: 20px;
   }
   .sec1ImgDiv{
-    width: 400px;
+    /* width: 400px; */
+    width: 350px;
     height: 400px;
     margin: 10px 0;
     padding-left: 15px;
@@ -260,6 +261,10 @@ flex-direction: column;
   .sec1-btn{
       margin-top: 0px;
   }
+}
+.allCON{
+  display: flex;
+
 }
 
 /* end section-1 */
@@ -313,6 +318,7 @@ flex-direction: column;
   color: #FFF;
   font-family: 'Fjalla One', sans-serif;
   font-size: 50px;
+  margin-top: 20px;
 }
 .feels-btn{
   background-color: rgba(217, 217, 217, 0.76);
