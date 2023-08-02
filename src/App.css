@@ -486,6 +486,10 @@ font-weight: 400;
 line-height: normal;
 padding: 20px;
 }
+.Footer-btn:hover{
+  cursor: pointer;
+  color: #CDFFF1;
+}
 .LastLine{
   color: #CDFFF1;
 text-align: center;
@@ -498,10 +502,6 @@ padding-left: 5px;
 padding-right: 5px;
 }
 @media screen and (max-width: 780px){
-  .FooterCon{
-    /* background-color: #283229; */
-    /* display: none; */
-  }
   .Footer-btn{
     font-size: 15px;
   }
