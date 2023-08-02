@@ -68,7 +68,7 @@ export default function Footer() {
       </div>
       <div style={{display:'flex', justifyContent:'center'}}>
         <img src={Heart} alt="" />
-        <p className='LastLine'>Designed by Neha & Developed by Laiba</p>
+        <p className='LastLine'>Designed & Developed by Laiba</p>
         <img src={Heart} alt="" />
       </div>
     </div>
