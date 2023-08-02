@@ -8,18 +8,18 @@ export default function Section2() {
       <div className='sec2Cards'> 
 
         <div className='sec2Outer'>
-          <div className='sec2City'>Noida, <span style={{
+          <div className='sec2City'>New Delhi, <span style={{
             color:'rgba(34, 52, 25, 0.52)', fontSize:'25px'}}>India</span> </div>
           <div className='allCON'>
           <div className='sec2Icon'>
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>
           <div style={{display:'inline-block'}}>
-            <div className='sec2Temp'>23&deg;c</div>
-            <button className='feels-btn'>Real feel - 27&deg;c</button>
+            <div className='sec2Temp'>32&deg;c</div>
+            <button className='feels-btn'>Real feel - 35&deg;c</button>
           </div>
           </div>
-          <div className='sec2Last'>06/06/2023 &#x2022; Tuesday &#x2022; 01:15 AM</div>
+          {/* <div className='sec2Last'>06/06/2023 &#x2022; Thursday &#x2022; 01:15 AM</div> */}
         </div>
 
         <div className='sec2Outer'>
@@ -30,11 +30,11 @@ export default function Section2() {
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>
           <div style={{display:'inline-block'}}>
-            <div className='sec2Temp'>23&deg;c</div>
-            <button className='feels-btn'>Real feel - 27&deg;c</button>
+            <div className='sec2Temp'>28&deg;c</div>
+            <button className='feels-btn'>Real feel - 28&deg;c</button>
           </div>
           </div>
-          <div className='sec2Last'>06/06/2023 &#x2022; Tuesday &#x2022; 01:15 AM</div>
+          {/* <div className='sec2Last'>06/06/2023 &#x2022; Tuesday &#x2022; 01:15 AM</div> */}
         </div>
 
         <div className='sec2Outer'>
@@ -45,11 +45,11 @@ export default function Section2() {
             <img style={{display:'inline-block'}} src={Rain} alt="" />
           </div>
           <div style={{display:'inline-block'}}>
-            <div className='sec2Temp'>23&deg;c</div>
-            <button className='feels-btn'>Real feel - 27&deg;c</button>
+            <div className='sec2Temp'>32&deg;c</div>
+            <button className='feels-btn'>Real feel - 32&deg;c</button>
           </div>
           </div>
-          <div className='sec2Last'>06/06/2023 &#x2022; Tuesday &#x2022; 01:15 AM</div>
+          {/* <div className='sec2Last'>06/06/2023 &#x2022; Tuesday &#x2022; 01:15 AM</div> */}
         </div>
       </div>
       
